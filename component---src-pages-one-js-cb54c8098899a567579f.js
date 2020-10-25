@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{pnLY:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t.n(a),c=t("Wbzz");n.default=function(){return r.a.createElement(r.a.Fragment,null,r.a.createElement("h1",null,"Hi from first page"),r.a.createElement(c.a,{to:"/"},"Back"))}}}]);
+//# sourceMappingURL=component---src-pages-one-js-cb54c8098899a567579f.js.map
