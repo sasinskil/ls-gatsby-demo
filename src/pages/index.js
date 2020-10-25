@@ -37,7 +37,7 @@ const IndexPage = () => (
       <Header>Gatsby</Header>
       <Subheader>+ friends</Subheader>
       <Navigation />
-      <Button>Want more</Button>
+      <Button>Want more?</Button>
     </StyledWrapper>
   </>
 )
