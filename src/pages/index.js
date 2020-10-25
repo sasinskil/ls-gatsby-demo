@@ -21,13 +21,17 @@ const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10rem;
+  padding-left: 10rem;
   width: 100%;
   height: 100vh;
   background-image: url(${backgroundImage});
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 2rem;
+  }
 `
 
 const IndexPage = () => (
@@ -37,7 +41,7 @@ const IndexPage = () => (
       <Header>Gatsby</Header>
       <Subheader>+ friends</Subheader>
       <Navigation />
-      <Button>Want more?</Button>
+      <Button>Want's more?</Button>
     </StyledWrapper>
   </>
 )
